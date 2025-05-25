@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdf6f0;
+    color: #333;
+}
+
+.bg-rosa {
+    background-color: #f8e1e7;
+}
+
+.bg-beige {
+    background-color: #fdf6f0;
+}
+
+.text-rosa {
+    color: #f28a8a;
+}
+
+.btn-rosa {
+    background-color: #f28a8a;
+    color: white;
+    border: none;
+}
+.btn-rosa:hover {
+    background-color: #e96e6e;
+}
+
+.img-carousel {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btn-wsp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-wsp:hover {
+    background-color: #1ebea5;
+}
+
+/* Footer contraste mejorado */
+footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Inputs animados y visuales */
+input:focus, textarea:focus {
+    border-color: #f28a8a;
+    box-shadow: 0 0 0 0.2rem rgba(242, 138, 138, 0.25);
+}
+
+.invalid-feedback {
+    display: block;
+    color: #dc3545;
+}
+
+/* Placeholder suaves */
+::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
