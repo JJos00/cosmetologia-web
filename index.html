@@ -400,7 +400,8 @@
     <div class="map-section">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15050.28322190034!2d-99.1693695!3d19.4270505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sEl%20%C3%81ngel%20de%20la%20Independencia!5e0!3m2!1ses!2smx!4v1622671234567!5m2!1ses!2smx"
-            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            aria-label="Ubicación de Sayra Cosmetología en León, Guanajuato">></iframe>
     </div>
 
     <!-- Footer -->
@@ -476,6 +477,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/script.js"></script>
     <script>
         // Inicializar AOS
         AOS.init({
@@ -529,7 +531,7 @@
             this.reset();
         });
         // Testimonials slider
-        $('.testimonials-slider')({
+        $('.testimonials-slider').slick({
             infinite: false,
             slidesToShow: 1,
             slidesToScroll: 1,
